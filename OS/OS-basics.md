@@ -286,3 +286,37 @@ Examples:
     - the kernel space size is small because only essential services runs 
     - it is best in stability, maintanence and security 
     - but less in performance by comparing to monolithic kernel
+
+
+## Types of OS
+- **Batch OS**: 
+    - The flow of batch os is user give job to operator and Operator generate a punch cards and make batch put in a computer and they get a result
+    - Here one badge have more than one job So more user can get result at a time
+    - Advantage: One time setup and execute batches
+    - Disadvantage: No debugging no interaction users had to wait long time even program is small but waiting time is same per batch 
+- **Time Sharing os**:
+    - Time sharing OS solves interaction with computer and reduce response time Users work simultaneously 
+    - Here one computer but users are more means one cpu and Each user have its own screen keyboard to work 
+    - But But here users are not working simultaneously this cpu make time slice here means each user get specific millisecond time so they think they are working simultaneously .
+    - Advantage:  Interaction with users reduce time
+    - Disadvantage: Securities is not proper and switching contact switching
+- **Distribution os**: 
+    - Distribution OS means its work like one system means here more than one system this each system have its own cpu ram screen etc means each system are called computers but they work like one system
+    - Assume if user provide task then the distribution aware distribute the task into chunks and computers work those tasks and provide more computers to more fast work here user do not know which computer is do what task
+    - Advantage: Share task come and communicate each other and easy to add more computers
+    - Disadvantage: More cost and hard to handle those computers and hard to debugging because user don't know which computer can solve which type of task 
+- **RTOS**:
+    - The operating system are fast but some systems want predictable task or complete task in a provided time or fixed time or I can say in a given time.
+    - Here in this divided into two parts Hard RTOS and soft RTOS 
+    - Hard RTOS means if given task not completed in a given timeline or specific timeline then it is not acceptable.
+    - Soft RTOS means completed in a given timeline or specific timeline then it is acceptable not restricted
+    - Advantage: Predictable and fast
+    - Disadvantage: complex to design, expensive and less flexible
+- **Network OS**: 
+    - Network operating system is created because if grouped members work together and they can communicate each other this is a purpose of to create a network operating system for example offices labs and colleges 
+    - In network operating system users can communicate through systems and share task files etc 
+    - And each user know what task they are doing and how much they are completed in simple words progress 
+    - Advantage: Resource sharing, centrilze administration, best access control and easier collaboration
+    - Disadvantage: network dependency, server failure effect users, setup and maintanence cost 
+
+    
